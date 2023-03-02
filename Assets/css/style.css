@@ -667,3 +667,16 @@ textarea.form-control {
 .code-tabs .tab-content {
   padding: 20px 15px;
 }
+.mdi-phone {
+  background-image: url("https://api.iconify.design/logos:whatsapp-monochrome-icon.svg?color=%23888888");
+  color: #14af4a;
+  -webkit-mask: var(--un-icon) no-repeat;
+  mask: var(--un-icon) no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  color: currentColor;
+  background-repeat: no-repeat;
+  color: inherit;
+  width: 1.2em;
+  height: 1.2em;
+}
