@@ -93,6 +93,7 @@ a:hover {
 .next {
   display: none;
 }
+
 /* Footer styles */
 
 footer {
@@ -137,7 +138,6 @@ footer {
 .socials a {
   color: #fff;
   font-size: 1.5rem;
-
   margin-right: 15px;
   transition: transform 0.3s ease-in-out;
 }
@@ -199,7 +199,7 @@ footer {
 
 .footer-bottom {
   border-top: 1px solid #fff;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 50px;
   padding-top: 30px;
   text-align: center;
@@ -225,4 +225,15 @@ footer {
   100% {
     transform: translateY(0);
   }
+}
+.my-name {
+  display: inline-block;
+  padding: 0 0;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.my-name:hover {
+  color: #ff00de;
+  background-color: #262626;
 }
