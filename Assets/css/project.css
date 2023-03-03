@@ -1,13 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
   margin: 0;
   padding: 0;
+
+  line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #999;
 }
 
 header {
-  background-color: #333;
+  background-color: #ff4400;
   color: #fff;
   padding: 20px;
 }
@@ -16,7 +18,14 @@ h1,
 h2 {
   margin: 0;
 }
-
+h1 a {
+  background-color: transparent;
+}
+h1 a:hover {
+  background-color: #fff;
+  color: #ff4400;
+  border-radius: 30px;
+}
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -31,19 +40,6 @@ section {
 
 img {
   max-width: 100%;
-}
-
-a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-a:hover {
-  background-color: #666;
 }
 /* Slideshow Styles */
 .slideshow-container {
@@ -97,7 +93,7 @@ a:hover {
 /* Footer styles */
 
 footer {
-  background-color: #262626;
+  background-color: transparent;
   color: #fff;
   font-size: 14px;
   padding: 80px 2%;
@@ -122,28 +118,18 @@ footer {
 .logo-text {
   font-size: 4rem;
   margin-bottom: 20px;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-    0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff4400,
+    0 0 70px #ff4400, 0 0 80px #ff4400, 0 0 100px #ff4400, 0 0 150px #ff4400;
 }
 
 .contact {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .contact span {
   display: block;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.socials a {
-  color: #fff;
-  font-size: 1.5rem;
-  margin-right: 15px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.socials a:hover {
-  transform: translateY(-10px);
 }
 
 .links ul {
@@ -159,8 +145,12 @@ footer {
 .links a {
   color: #fff;
   text-decoration: none;
+  background-color: #ff4400;
 }
-
+.links a:hover {
+  background-color: #fff;
+  color: #ff4400;
+}
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -181,7 +171,7 @@ footer {
 }
 
 .btn-big {
-  background-color: #ff00de;
+  background-color: #ff4400;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -194,10 +184,11 @@ footer {
 
 .btn-big:hover {
   background-color: #fff;
-  color: #ff00de;
+  color: #ff4400;
 }
 
-.footer-bottom {
+.footer-bottom,
+.footer-top {
   border-top: 1px solid #fff;
   font-size: 18px;
   margin-top: 50px;
@@ -206,7 +197,7 @@ footer {
 }
 
 .purple-ball {
-  background-color: #ff00de;
+  background-color: #ff2600;
   border-radius: 50%;
   height: 50px;
   position: absolute;
@@ -232,8 +223,10 @@ footer {
   color: #fff;
   text-decoration: none;
   margin-right: 10px;
+  background-color: transparent;
+  font-size: 20px;
 }
 .my-name:hover {
-  color: #ff00de;
-  background-color: #262626;
+  color: #ec4f1b;
+  background-color: transparent;
 }
