@@ -226,3 +226,12 @@ footer {
   color: #ec4f1b;
   background-color: transparent;
 }
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #19dd5d;
+  color: #fff;
+}

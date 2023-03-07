@@ -431,6 +431,10 @@ mark {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  background-color: #fff;
+}
+.img-fluid:hover {
+  background-color: #14af4a;
 }
 .img-thumbnail {
   padding: 0.25rem;
